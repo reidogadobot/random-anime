@@ -20,4 +20,4 @@ app.get("/nsfw", (req, res) => {
   }, null, 2))
 })
 
-app.listen(PORT, () => console.log("ok"))
+app.listen(8000)
