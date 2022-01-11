@@ -2,7 +2,7 @@ const express = require("express");
 const random = require("./src/random");
 
 const app = express();
-const PORT = 3000;
+const PORT = 8080;
 
 app.get("/anime", (req, res) => {
   res.type("json");
