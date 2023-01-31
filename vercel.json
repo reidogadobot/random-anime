@@ -9,4 +9,5 @@
  "routers": {
   "src": "/(.*)",
   "dest": "index.js"
+ }
 }
